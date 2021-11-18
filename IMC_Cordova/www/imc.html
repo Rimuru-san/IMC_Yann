@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+        <title>IMC</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-2"></div>
+                <div class="col-lg-6 col-md-8 login-box">
+                    <div class="col-lg-12 login-title">
+                        <h1 id="title-imc"></h1>
+                    </div>
+                    <div class="col-lg-12 imc-box">
+                        <h2 id="imc-value" class="imc"></h2>
+                        <a href="./register_imc.html" id="register-imc"></a>
+                        <a href="./register_imc.html" id="update-imc"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./../cordova.js"></script>
+        <script src="./plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js"></script>
+        <script src="js/firebase.js"></script>
+        <script src="js/imc.js"></script>
+    </body>
+
+</html>
